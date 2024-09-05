@@ -1,2 +1,3 @@
-# nginx-master
-This project is to understand how the ngins works!
+# Getting to use and creating enviromment with Nginx
+
+    https://nginx.org/en/docs/
