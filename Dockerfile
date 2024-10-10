@@ -18,6 +18,5 @@ RUN apt-get update \
     | sudo tee /etc/apt/preferences.d/99nginx \
     && apt-get update \
     && apt-get upgrade -y \
-    && apt-get install nginx
-
-
+    && apt-get install nginx \
+    && systemctl start nginx

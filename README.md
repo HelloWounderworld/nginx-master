@@ -13,3 +13,7 @@
 ### To the Linux:
 
     https://nginx.org/en/linux_packages.html
+
+## Directives:
+
+    https://nginx.org/en/docs/http/ngx_http_proxy_module.html
