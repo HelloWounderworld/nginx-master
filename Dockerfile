@@ -4,7 +4,7 @@ SHELL ["/bin/bash", "-c"]
 
 RUN apt-get update \
     && apt-get upgrade -y \
-    && apt-get install \
+    && apt-get install -y \
     curl \
     gnupg2 \
     ca-certificates \
@@ -15,8 +15,7 @@ RUN apt-get update \
     && echo "deb [signed-by=/usr/share/keyrings/nginx-archive-keyring.gpg] http://nginx.org/packages/ubuntu `lsb_release -cs` nginx" \
     | tee /etc/apt/sources.list.d/nginx.list \
     && echo -e "Package: *\nPin: origin nginx.org\nPin: release o=nginx\nPin-Priority: 900\n" \
-    | sudo tee /etc/apt/preferences.d/99nginx \
+    | tee /etc/apt/preferences.d/99nginx \
     && apt-get update \
     && apt-get upgrade -y \
-    && apt-get install nginx \
-    && systemctl start nginx
+    && apt-get install -y nginx

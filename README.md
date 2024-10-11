@@ -17,3 +17,9 @@
 ## Directives:
 
     https://nginx.org/en/docs/http/ngx_http_proxy_module.html
+
+## References:
+
+1. [The Book That I based to learn about nginx with it documentation][1]
+
+[1]: https://www.amazon.com/NGINX-Cookbook-Derek-DeJonghe-ebook/dp/B0CTJ996QY
