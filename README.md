@@ -18,6 +18,10 @@
 
     https://nginx.org/en/docs/http/ngx_http_proxy_module.html
 
+## Docker Compose:
+
+    https://hub.docker.com/_/nginx
+
 ## References:
 
 1. [The Book That I based to learn about nginx with it documentation][1]
